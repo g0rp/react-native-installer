@@ -1,7 +1,7 @@
 #!/bin/sh
 
 version="v1.0"
-libraries="firebase lodash react-native-router-flux redux redux-thunk"
+libraries="firebase lodash react-native-router-flux redux react-redux redux-thunk"
 
 echo 'React-Native project installer'
 echo $version
