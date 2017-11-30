@@ -9,8 +9,7 @@ echo '\n'
 
 read -p 'Project name: ' projectName
 
-#create-react-native-app $projectName
-touch $projectName
+create-react-native-app $projectName
 cd $projectName
 
 read -p "Do you want to install the default libraries [$libraries] ? (Y/n) " -n 1 -r
