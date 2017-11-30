@@ -22,7 +22,7 @@ fi
 read -p "Do you want to install other libraries ? (Y/n) " -n 1 -r
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-	read -p 'Witch one ? ' otherLibraries
+	read -p 'Which one ? ' otherLibraries
 	sudo npm install --save $otherLibraries
 fi
 
